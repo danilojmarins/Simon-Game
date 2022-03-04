@@ -1,0 +1,79 @@
+body {
+    background-color: #999;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    color: beige;
+    line-height: 4.5rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+p {
+    font-family: 'Turret Road', cursive;
+    font-size: 1.3rem;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    margin: 5% auto 7% auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 1rem rgb(64, 64, 64);
+}
+
+.square1 {
+    background-color: rgb(255, 255, 0, 0.6);
+}
+.square1-selected {
+    background-color: rgb(255, 255, 0);
+    border-color: goldenrod;
+    box-shadow: 0 0 1rem goldenrod;
+}
+
+.square2 {
+    background-color: rgb(0, 0, 255, 0.4);
+}
+.square2-selected {
+    background-color: rgb(0, 0, 255);
+    border-color: goldenrod;
+    box-shadow: 0 0 1rem goldenrod;
+}
+
+.square3 {
+    background-color: rgb(255, 0, 0, 0.6);
+}
+.square3-selected {
+    background-color: rgb(255, 0, 0);
+    border-color: goldenrod;
+    box-shadow: 0 0 1rem goldenrod;
+}
+
+.square4 {
+    background-color: rgba(0, 128, 0, 0.6);
+}
+.square4-selected {
+    background-color: #008000;
+    border-color: goldenrod;
+    box-shadow: 0 0 1rem goldenrod;
+}
+
+.fa-brands {
+    font-size: 1.7rem;
+    color: #333;
+    padding: 8px;
+}
